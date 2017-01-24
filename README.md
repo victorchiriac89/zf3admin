@@ -10,10 +10,15 @@ file and apply your settings.
 This sample is based on *Hello World* sample. It shows how to:
 
  > Create a new module named Admin
+
  > Create Admin entity
+
  > Implement user authentication (with login and password)
+
  > Implement access filter to restrict access to certain pages to authenticated users only
+
  > Implement user management UI
+
  > Init main menu items differently based on whether the current user is logged in or not
 
 ## Installation
