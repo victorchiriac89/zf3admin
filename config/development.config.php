@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
+ * @copyright Copyright (c) 2005-2016 Zend Technologies USA Inc. (http://www.zend.com)
+ * @license   http://framework.zend.com/license/new-bsd New BSD License
+ * 
+ * @version 1.0.0
+ * @author Victor Chiriac <victorchiriac89@gmail.com>
+ * @company Web Design Brasov
+ * @website <www.webdesignbv.ro>
+ */
+
+return [
+    // Additional modules to include when in development mode
+    'modules' => [
+        'ZendDeveloperTools',
+    ],
+    // Configuration overrides during development mode
+    'module_listener_options' => [
+        'config_glob_paths' => [realpath(__DIR__) . '/autoload/{,*.}{global,local}-development.php'],
+        'config_cache_enabled' => false,
+        'module_map_cache_enabled' => false,
+    ],
+];

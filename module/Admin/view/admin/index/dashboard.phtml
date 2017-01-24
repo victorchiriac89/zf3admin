@@ -1,0 +1,11 @@
+<?php
+
+$this->headTitle('Welcome ADMIN');
+
+$this->mainMenu()->setActiveItemId('home');
+
+$this->pageBreadcrumbs()->setItems([
+    'Home' => $this->url('admin/dashboard')
+]); ?>
+
+<h1>Welcome to dashboard</h1>
