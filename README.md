@@ -107,15 +107,3 @@ This code is provided under the [BSD-like license](https://en.wikipedia.org/wiki
 
 If you found a mistake or a bug, please report it using the [Issues](https://github.com/victorchiriac89/zf3admin/issues) page. 
 Your feedback is highly appreciated.
-
-## Special section
-
-> This is intended to help other developer that enjoy coding in Zend Framework 3 to have an easy start with a general admin integration. I personally started with zf3 about 2 months ago since I've added this, and I find it one of the best open source frameworks there is.
-
-> This module is zf3admin, using a module named admin that I've adapted from https://github.com/olegkrivtsov and tried my best to suite as a general admin that can be further used. So special thanks to him, my purpose of distributing this is to help others, not to gain any fame.
-
-> This uses the following modules:
-
-> 'DoctrineModule','DoctrineORMModule','Zend\Cache','Zend\Paginator','Zend\I18n','Zend\InputFilter','Zend\Filter','Zend\Hydrator','Zend\Session','Zend\Mvc\Plugin\Prg','Zend\Mvc\Plugin\Identity','Zend\Mvc\Plugin\FlashMessenger','Zend\Mvc\Plugin\FilePrg','Zend\Form','Zend\Router','Zend\Validator'
-
-> And I intend to add "zend-permissions-rbac" also, any help is quite welcome.
